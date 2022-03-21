@@ -1,0 +1,28 @@
+{
+  "name": "whattimeisitapi",
+  "version": "1.0.0",
+  "description": "An API for telling the time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./app/test/test.js",
+    "start": "node app/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmmcc/WhatTimeIsItAPI.git"
+  },
+  "author": "kyle mccarty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmmcc/WhatTimeIsItAPI/issues"
+  },
+  "homepage": "https://github.com/kmmcc/WhatTimeIsItAPI#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.3"
+  }
+}
